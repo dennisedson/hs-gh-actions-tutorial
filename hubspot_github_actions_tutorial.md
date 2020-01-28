@@ -17,14 +17,13 @@ If we introduce an automated action that is triggered by a push to github, we ca
 _should i build from scratch locally as well building on github..._
 
 ### Building on Github
--Within the repo on github, click on the actions link
--Select the node.js workflow
--Rename to something meaningful to you eg `hubspot master branch deploy`
--update the trigger
+- Within the repo on github, click on the actions link
+- Select the node.js workflow
+- Rename to something meaningful to you eg `hubspot master branch deploy`
+- update the trigger
    I build a lot of my code in my developer portal and have a development branch for it. When I push to the development branch, there is an action that is triggered only by a push to that branch
    An example of what the code looks like
    ```on: 
   push:
     branches: 
       - development```
-      
