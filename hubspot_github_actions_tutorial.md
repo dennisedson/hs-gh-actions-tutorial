@@ -26,4 +26,10 @@ _should i build from scratch locally as well building on github..._
    ```on: 
   push:
     branches: 
-      - development```
+      - development
+```
+- Within the workflow job, you can remove the strategy as we only need to run on one version of node.  
+
+#### Breaking down the steps
+
+
